@@ -1,0 +1,36 @@
+{
+  "name": "men_rest_api",
+  "version": "1.0.0",
+  "description": "MongoDB ExpressJS NodeJS RESTful API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "nodejs",
+    "express"
+  ],
+  "author": "Anders Stromberg <coltlaboy@yahoo.se> (https://ackeprojects.xyz/)",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "colors": "^1.4.0",
+    "cross-env": "^7.0.3",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
+    "swagger-ui-express": "^4.3.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
